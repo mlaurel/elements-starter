@@ -1,0 +1,1365 @@
+{
+  "version": "1.0.0",
+  "project": {
+    "@elements/application": {
+      "spec": "next",
+      "version": "1.0.0-alpha.104",
+      "kind": "dependencies"
+    },
+    "@types/node": {
+      "spec": ">=14.14.20 <14.15.0",
+      "version": "14.14.22",
+      "kind": "devDependencies"
+    },
+    "@types/react": {
+      "spec": ">=16.14.2 <16.15.0",
+      "version": "16.14.2",
+      "kind": "devDependencies"
+    },
+    "autoprefixer": {
+      "spec": ">=10.2.1 <10.3.0",
+      "version": "10.2.3",
+      "kind": "dependencies"
+    },
+    "classnames": {
+      "spec": ">=2.2.6 <2.3.0",
+      "version": "2.2.6",
+      "kind": "dependencies"
+    },
+    "postcss": {
+      "spec": ">=8.2.4 <8.3.0",
+      "version": "8.2.4",
+      "kind": "dependencies"
+    },
+    "react": {
+      "spec": ">=16.14.0 <16.15.0",
+      "version": "16.14.0",
+      "kind": "dependencies"
+    },
+    "react-dom": {
+      "spec": ">=16.14.0 <16.15.0",
+      "version": "16.14.0",
+      "kind": "dependencies"
+    },
+    "tailwindcss": {
+      "spec": "latest",
+      "version": "2.0.2",
+      "kind": "dependencies"
+    }
+  },
+  "packages": {
+    "@elements/application": {
+      "1.0.0-alpha.104": {
+        "@elements/compiler": {
+          "spec": ">=1.0.0-alpha.104 <0.1.0",
+          "version": "1.0.0-alpha.104",
+          "kind": "dependencies"
+        },
+        "@elements/config": {
+          "spec": ">=1.0.0-alpha.104 <0.1.0",
+          "version": "1.0.0-alpha.104",
+          "kind": "dependencies"
+        },
+        "@elements/error": {
+          "spec": ">=1.0.0-alpha.104 <0.1.0",
+          "version": "1.0.0-alpha.104",
+          "kind": "dependencies"
+        },
+        "@elements/json": {
+          "spec": ">=1.0.0-alpha.104 <0.1.0",
+          "version": "1.0.0-alpha.104",
+          "kind": "dependencies"
+        },
+        "@elements/parse": {
+          "spec": ">=1.0.0-alpha.104 <0.1.0",
+          "version": "1.0.0-alpha.104",
+          "kind": "dependencies"
+        },
+        "@elements/postgres": {
+          "spec": ">=1.0.0-alpha.104 <0.1.0",
+          "version": "1.0.0-alpha.104",
+          "kind": "dependencies"
+        },
+        "@elements/runtime": {
+          "spec": ">=1.0.0-alpha.104 <0.1.0",
+          "version": "1.0.0-alpha.104",
+          "kind": "dependencies"
+        },
+        "@elements/utils": {
+          "spec": ">=1.0.0-alpha.104 <0.1.0",
+          "version": "1.0.0-alpha.104",
+          "kind": "dependencies"
+        },
+        "base64-url": {
+          "spec": ">=2.3.3 <2.4.0",
+          "version": "2.3.3",
+          "kind": "dependencies"
+        },
+        "debug": {
+          "spec": ">=4.1.1 <4.2.0",
+          "version": "4.1.1",
+          "kind": "dependencies"
+        },
+        "mime": {
+          "spec": ">=2.4.6 <2.5.0",
+          "version": "2.4.7",
+          "kind": "dependencies"
+        },
+        "nodemailer": {
+          "spec": ">=6.4.14 <6.5.0",
+          "version": "6.4.17",
+          "kind": "dependencies"
+        },
+        "path-to-regexp": {
+          "spec": ">=6.1.0 <6.2.0",
+          "version": "6.1.0",
+          "kind": "dependencies"
+        },
+        "url-parse": {
+          "spec": ">=1.4.7 <1.5.0",
+          "version": "1.4.7",
+          "kind": "dependencies"
+        },
+        "uuid": {
+          "spec": ">=8.1.0 <8.2.0",
+          "version": "8.1.0",
+          "kind": "dependencies"
+        },
+        "ws": {
+          "spec": ">=7.3.1 <7.4.0",
+          "version": "7.3.1",
+          "kind": "dependencies"
+        }
+      }
+    },
+    "@elements/compiler": {
+      "1.0.0-alpha.104": {
+        "@elements/css": {
+          "spec": ">=1.0.0-alpha.104 <0.1.0",
+          "version": "1.0.0-alpha.104",
+          "kind": "dependencies"
+        },
+        "typescript": {
+          "spec": ">=4.0.3 <4.1.0",
+          "version": "4.0.5",
+          "kind": "dependencies"
+        }
+      }
+    },
+    "@elements/config": {
+      "1.0.0-alpha.104": {
+        "@elements/utils": {
+          "spec": "1.0.0-alpha.104",
+          "version": "1.0.0-alpha.104",
+          "kind": "dependencies"
+        }
+      }
+    },
+    "@elements/css": {
+      "1.0.0-alpha.104": {
+        "@elements/parse": {
+          "spec": ">=1.0.0-alpha.104 <0.1.0",
+          "version": "1.0.0-alpha.104",
+          "kind": "dependencies"
+        }
+      }
+    },
+    "@elements/error": {
+      "1.0.0-alpha.104": {
+        "@elements/json": {
+          "spec": "1.0.0-alpha.104",
+          "version": "1.0.0-alpha.104",
+          "kind": "dependencies"
+        }
+      }
+    },
+    "@elements/job": {
+      "1.0.0-alpha.104": {
+        "@elements/term": {
+          "spec": "1.0.0-alpha.104",
+          "version": "1.0.0-alpha.104",
+          "kind": "dependencies"
+        },
+        "@elements/utils": {
+          "spec": "1.0.0-alpha.104",
+          "version": "1.0.0-alpha.104",
+          "kind": "dependencies"
+        }
+      }
+    },
+    "@elements/json": {
+      "1.0.0-alpha.104": {
+        "@elements/utils": {
+          "spec": "1.0.0-alpha.104",
+          "version": "1.0.0-alpha.104",
+          "kind": "dependencies"
+        }
+      }
+    },
+    "@elements/parse": {
+      "1.0.0-alpha.104": {
+        "@types/node": {
+          "spec": "latest",
+          "version": "14.14.22",
+          "kind": "dependencies"
+        },
+        "source-map": {
+          "spec": "latest",
+          "version": "0.7.3",
+          "kind": "dependencies"
+        }
+      }
+    },
+    "@elements/postgres": {
+      "1.0.0-alpha.104": {
+        "@elements/config": {
+          "spec": "1.0.0-alpha.104",
+          "version": "1.0.0-alpha.104",
+          "kind": "dependencies"
+        },
+        "@elements/error": {
+          "spec": "1.0.0-alpha.104",
+          "version": "1.0.0-alpha.104",
+          "kind": "dependencies"
+        },
+        "@elements/job": {
+          "spec": "1.0.0-alpha.104",
+          "version": "1.0.0-alpha.104",
+          "kind": "dependencies"
+        },
+        "@elements/json": {
+          "spec": "1.0.0-alpha.104",
+          "version": "1.0.0-alpha.104",
+          "kind": "dependencies"
+        },
+        "@elements/term": {
+          "spec": "1.0.0-alpha.104",
+          "version": "1.0.0-alpha.104",
+          "kind": "dependencies"
+        },
+        "pg": {
+          "spec": ">=8.3.0 <8.4.0",
+          "version": "8.3.3",
+          "kind": "dependencies"
+        }
+      }
+    },
+    "@elements/runtime": {
+      "1.0.0-alpha.104": {}
+    },
+    "@elements/term": {
+      "1.0.0-alpha.104": {
+        "@elements/utils": {
+          "spec": "1.0.0-alpha.104",
+          "version": "1.0.0-alpha.104",
+          "kind": "dependencies"
+        }
+      }
+    },
+    "@elements/utils": {
+      "1.0.0-alpha.104": {}
+    },
+    "@fullhuman/postcss-purgecss": {
+      "3.1.3": {
+        "purgecss": {
+          "spec": ">=3.1.3 <4.0.0",
+          "version": "3.1.3",
+          "kind": "dependencies"
+        }
+      }
+    },
+    "@types/node": {
+      "14.14.22": {}
+    },
+    "@types/prop-types": {
+      "15.7.3": {}
+    },
+    "@types/react": {
+      "16.14.2": {
+        "@types/prop-types": {
+          "spec": ">=0.0.0",
+          "version": "15.7.3",
+          "kind": "dependencies"
+        },
+        "csstype": {
+          "spec": ">=3.0.2 <4.0.0",
+          "version": "3.0.6",
+          "kind": "dependencies"
+        }
+      }
+    },
+    "acorn": {
+      "7.4.1": {}
+    },
+    "acorn-node": {
+      "1.8.2": {
+        "acorn": {
+          "spec": ">=7.0.0 <8.0.0",
+          "version": "7.4.1",
+          "kind": "dependencies"
+        },
+        "acorn-walk": {
+          "spec": ">=7.0.0 <8.0.0",
+          "version": "7.2.0",
+          "kind": "dependencies"
+        },
+        "xtend": {
+          "spec": ">=4.0.2 <5.0.0",
+          "version": "4.0.2",
+          "kind": "dependencies"
+        }
+      }
+    },
+    "acorn-walk": {
+      "7.2.0": {}
+    },
+    "ansi-styles": {
+      "3.2.1": {
+        "color-convert": {
+          "spec": ">=1.9.0 <2.0.0",
+          "version": "1.9.3",
+          "kind": "dependencies"
+        }
+      },
+      "4.3.0": {
+        "color-convert": {
+          "spec": ">=2.0.1 <3.0.0",
+          "version": "2.0.1",
+          "kind": "dependencies"
+        }
+      }
+    },
+    "at-least-node": {
+      "1.0.0": {}
+    },
+    "autoprefixer": {
+      "10.2.3": {
+        "browserslist": {
+          "spec": ">=4.16.1 <5.0.0",
+          "version": "4.16.1",
+          "kind": "dependencies"
+        },
+        "caniuse-lite": {
+          "spec": ">=1.0.30001178 <2.0.0",
+          "version": "1.0.30001180",
+          "kind": "dependencies"
+        },
+        "colorette": {
+          "spec": ">=1.2.1 <2.0.0",
+          "version": "1.2.1",
+          "kind": "dependencies"
+        },
+        "fraction.js": {
+          "spec": ">=4.0.13 <5.0.0",
+          "version": "4.0.13",
+          "kind": "dependencies"
+        },
+        "normalize-range": {
+          "spec": ">=0.1.2 <0.2.0",
+          "version": "0.1.2",
+          "kind": "dependencies"
+        },
+        "postcss-value-parser": {
+          "spec": ">=4.1.0 <5.0.0",
+          "version": "4.1.0",
+          "kind": "dependencies"
+        }
+      }
+    },
+    "balanced-match": {
+      "1.0.0": {}
+    },
+    "base64-url": {
+      "2.3.3": {}
+    },
+    "brace-expansion": {
+      "1.1.11": {
+        "balanced-match": {
+          "spec": ">=1.0.0 <2.0.0",
+          "version": "1.0.0",
+          "kind": "dependencies"
+        },
+        "concat-map": {
+          "spec": "0.0.1",
+          "version": "0.0.1",
+          "kind": "dependencies"
+        }
+      }
+    },
+    "browserslist": {
+      "4.16.1": {
+        "caniuse-lite": {
+          "spec": ">=1.0.30001173 <2.0.0",
+          "version": "1.0.30001180",
+          "kind": "dependencies"
+        },
+        "colorette": {
+          "spec": ">=1.2.1 <2.0.0",
+          "version": "1.2.1",
+          "kind": "dependencies"
+        },
+        "electron-to-chromium": {
+          "spec": ">=1.3.634 <2.0.0",
+          "version": "1.3.646",
+          "kind": "dependencies"
+        },
+        "escalade": {
+          "spec": ">=3.1.1 <4.0.0",
+          "version": "3.1.1",
+          "kind": "dependencies"
+        },
+        "node-releases": {
+          "spec": ">=1.1.69 <2.0.0",
+          "version": "1.1.70",
+          "kind": "dependencies"
+        }
+      }
+    },
+    "buffer-writer": {
+      "2.0.0": {}
+    },
+    "bytes": {
+      "3.1.0": {}
+    },
+    "camelcase-css": {
+      "2.0.1": {}
+    },
+    "caniuse-lite": {
+      "1.0.30001180": {}
+    },
+    "chalk": {
+      "2.4.2": {
+        "ansi-styles": {
+          "spec": ">=3.2.1 <4.0.0",
+          "version": "3.2.1",
+          "kind": "dependencies"
+        },
+        "escape-string-regexp": {
+          "spec": ">=1.0.5 <2.0.0",
+          "version": "1.0.5",
+          "kind": "dependencies"
+        },
+        "supports-color": {
+          "spec": ">=5.3.0 <6.0.0",
+          "version": "5.5.0",
+          "kind": "dependencies"
+        }
+      },
+      "4.1.0": {
+        "ansi-styles": {
+          "spec": ">=4.1.0 <5.0.0",
+          "version": "4.3.0",
+          "kind": "dependencies"
+        },
+        "supports-color": {
+          "spec": ">=7.1.0 <8.0.0",
+          "version": "7.2.0",
+          "kind": "dependencies"
+        }
+      }
+    },
+    "classnames": {
+      "2.2.6": {}
+    },
+    "color": {
+      "3.1.3": {
+        "color-convert": {
+          "spec": ">=1.9.1 <2.0.0",
+          "version": "1.9.3",
+          "kind": "dependencies"
+        },
+        "color-string": {
+          "spec": ">=1.5.4 <2.0.0",
+          "version": "1.5.4",
+          "kind": "dependencies"
+        }
+      }
+    },
+    "color-convert": {
+      "1.9.3": {
+        "color-name": {
+          "spec": "1.1.3",
+          "version": "1.1.3",
+          "kind": "dependencies"
+        }
+      },
+      "2.0.1": {
+        "color-name": {
+          "spec": ">=1.1.4 <1.2.0",
+          "version": "1.1.4",
+          "kind": "dependencies"
+        }
+      }
+    },
+    "color-name": {
+      "1.1.3": {},
+      "1.1.4": {}
+    },
+    "color-string": {
+      "1.5.4": {
+        "color-name": {
+          "spec": ">=1.0.0 <2.0.0",
+          "version": "1.1.4",
+          "kind": "dependencies"
+        },
+        "simple-swizzle": {
+          "spec": ">=0.2.2 <0.3.0",
+          "version": "0.2.2",
+          "kind": "dependencies"
+        }
+      }
+    },
+    "colorette": {
+      "1.2.1": {}
+    },
+    "commander": {
+      "6.2.1": {}
+    },
+    "concat-map": {
+      "0.0.1": {}
+    },
+    "css-unit-converter": {
+      "1.1.2": {}
+    },
+    "cssesc": {
+      "3.0.0": {}
+    },
+    "csstype": {
+      "3.0.6": {}
+    },
+    "debug": {
+      "4.1.1": {
+        "ms": {
+          "spec": ">=2.1.1 <3.0.0",
+          "version": "2.1.3",
+          "kind": "dependencies"
+        }
+      }
+    },
+    "defined": {
+      "1.0.0": {}
+    },
+    "detective": {
+      "5.2.0": {
+        "acorn-node": {
+          "spec": ">=1.6.1 <2.0.0",
+          "version": "1.8.2",
+          "kind": "dependencies"
+        },
+        "defined": {
+          "spec": ">=1.0.0 <2.0.0",
+          "version": "1.0.0",
+          "kind": "dependencies"
+        },
+        "minimist": {
+          "spec": ">=1.1.1 <2.0.0",
+          "version": "1.2.5",
+          "kind": "dependencies"
+        }
+      }
+    },
+    "didyoumean": {
+      "1.2.1": {}
+    },
+    "electron-to-chromium": {
+      "1.3.646": {}
+    },
+    "escalade": {
+      "3.1.1": {}
+    },
+    "escape-string-regexp": {
+      "1.0.5": {}
+    },
+    "fraction.js": {
+      "4.0.13": {}
+    },
+    "fs-extra": {
+      "9.1.0": {
+        "at-least-node": {
+          "spec": ">=1.0.0 <2.0.0",
+          "version": "1.0.0",
+          "kind": "dependencies"
+        },
+        "graceful-fs": {
+          "spec": ">=4.2.0 <5.0.0",
+          "version": "4.2.4",
+          "kind": "dependencies"
+        },
+        "jsonfile": {
+          "spec": ">=6.0.1 <7.0.0",
+          "version": "6.1.0",
+          "kind": "dependencies"
+        },
+        "universalify": {
+          "spec": ">=2.0.0 <3.0.0",
+          "version": "2.0.0",
+          "kind": "dependencies"
+        }
+      }
+    },
+    "fs.realpath": {
+      "1.0.0": {}
+    },
+    "function-bind": {
+      "1.1.1": {}
+    },
+    "glob": {
+      "7.1.6": {
+        "fs.realpath": {
+          "spec": ">=1.0.0 <2.0.0",
+          "version": "1.0.0",
+          "kind": "dependencies"
+        },
+        "inflight": {
+          "spec": ">=1.0.4 <2.0.0",
+          "version": "1.0.6",
+          "kind": "dependencies"
+        },
+        "inherits": {
+          "spec": ">=2.0.0 <3.0.0",
+          "version": "2.0.4",
+          "kind": "dependencies"
+        },
+        "minimatch": {
+          "spec": ">=3.0.4 <4.0.0",
+          "version": "3.0.4",
+          "kind": "dependencies"
+        },
+        "once": {
+          "spec": ">=1.3.0 <2.0.0",
+          "version": "1.4.0",
+          "kind": "dependencies"
+        },
+        "path-is-absolute": {
+          "spec": ">=1.0.0 <2.0.0",
+          "version": "1.0.1",
+          "kind": "dependencies"
+        }
+      }
+    },
+    "graceful-fs": {
+      "4.2.4": {}
+    },
+    "has": {
+      "1.0.3": {
+        "function-bind": {
+          "spec": ">=1.1.1 <2.0.0",
+          "version": "1.1.1",
+          "kind": "dependencies"
+        }
+      }
+    },
+    "has-flag": {
+      "3.0.0": {},
+      "4.0.0": {}
+    },
+    "html-tags": {
+      "3.1.0": {}
+    },
+    "indexes-of": {
+      "1.0.1": {}
+    },
+    "inflight": {
+      "1.0.6": {
+        "once": {
+          "spec": ">=1.3.0 <2.0.0",
+          "version": "1.4.0",
+          "kind": "dependencies"
+        },
+        "wrappy": {
+          "spec": ">=1.0.0 <2.0.0",
+          "version": "1.0.2",
+          "kind": "dependencies"
+        }
+      }
+    },
+    "inherits": {
+      "2.0.4": {}
+    },
+    "is-arrayish": {
+      "0.3.2": {}
+    },
+    "is-core-module": {
+      "2.2.0": {
+        "has": {
+          "spec": ">=1.0.3 <2.0.0",
+          "version": "1.0.3",
+          "kind": "dependencies"
+        }
+      }
+    },
+    "js-tokens": {
+      "4.0.0": {}
+    },
+    "jsonfile": {
+      "6.1.0": {
+        "universalify": {
+          "spec": ">=2.0.0 <3.0.0",
+          "version": "2.0.0",
+          "kind": "dependencies"
+        }
+      }
+    },
+    "lodash": {
+      "4.17.20": {}
+    },
+    "lodash.toarray": {
+      "4.4.0": {}
+    },
+    "loose-envify": {
+      "1.4.0": {
+        "js-tokens": {
+          "spec": ">=3.0.0 <4.0.0 || >=4.0.0 <5.0.0",
+          "version": "4.0.0",
+          "kind": "dependencies"
+        }
+      }
+    },
+    "mime": {
+      "2.4.7": {}
+    },
+    "minimatch": {
+      "3.0.4": {
+        "brace-expansion": {
+          "spec": ">=1.1.7 <2.0.0",
+          "version": "1.1.11",
+          "kind": "dependencies"
+        }
+      }
+    },
+    "minimist": {
+      "1.2.5": {}
+    },
+    "modern-normalize": {
+      "1.0.0": {}
+    },
+    "ms": {
+      "2.1.3": {}
+    },
+    "nanoid": {
+      "3.1.20": {}
+    },
+    "node-emoji": {
+      "1.10.0": {
+        "lodash.toarray": {
+          "spec": ">=4.4.0 <5.0.0",
+          "version": "4.4.0",
+          "kind": "dependencies"
+        }
+      }
+    },
+    "node-releases": {
+      "1.1.70": {}
+    },
+    "nodemailer": {
+      "6.4.17": {}
+    },
+    "normalize-range": {
+      "0.1.2": {}
+    },
+    "object-assign": {
+      "4.1.1": {}
+    },
+    "object-hash": {
+      "2.1.1": {}
+    },
+    "once": {
+      "1.4.0": {
+        "wrappy": {
+          "spec": ">=1.0.0 <2.0.0",
+          "version": "1.0.2",
+          "kind": "dependencies"
+        }
+      }
+    },
+    "packet-reader": {
+      "1.0.0": {}
+    },
+    "path-is-absolute": {
+      "1.0.1": {}
+    },
+    "path-parse": {
+      "1.0.6": {}
+    },
+    "path-to-regexp": {
+      "6.1.0": {}
+    },
+    "pg": {
+      "8.3.3": {
+        "buffer-writer": {
+          "spec": "2.0.0",
+          "version": "2.0.0",
+          "kind": "dependencies"
+        },
+        "packet-reader": {
+          "spec": "1.0.0",
+          "version": "1.0.0",
+          "kind": "dependencies"
+        },
+        "pg-connection-string": {
+          "spec": ">=2.3.0 <3.0.0",
+          "version": "2.4.0",
+          "kind": "dependencies"
+        },
+        "pg-pool": {
+          "spec": ">=3.2.1 <4.0.0",
+          "version": "3.2.2",
+          "kind": "dependencies"
+        },
+        "pg-protocol": {
+          "spec": ">=1.2.5 <2.0.0",
+          "version": "1.4.0",
+          "kind": "dependencies"
+        },
+        "pg-types": {
+          "spec": ">=2.1.0 <3.0.0",
+          "version": "2.2.0",
+          "kind": "dependencies"
+        },
+        "pgpass": {
+          "spec": ">=1.0.0 <2.0.0",
+          "version": "1.0.4",
+          "kind": "dependencies"
+        },
+        "semver": {
+          "spec": "4.3.2",
+          "version": "4.3.2",
+          "kind": "dependencies"
+        }
+      }
+    },
+    "pg-connection-string": {
+      "2.4.0": {}
+    },
+    "pg-int8": {
+      "1.0.1": {}
+    },
+    "pg-pool": {
+      "3.2.2": {}
+    },
+    "pg-protocol": {
+      "1.4.0": {}
+    },
+    "pg-types": {
+      "2.2.0": {
+        "pg-int8": {
+          "spec": "1.0.1",
+          "version": "1.0.1",
+          "kind": "dependencies"
+        },
+        "postgres-array": {
+          "spec": ">=2.0.0 <2.1.0",
+          "version": "2.0.0",
+          "kind": "dependencies"
+        },
+        "postgres-bytea": {
+          "spec": ">=1.0.0 <1.1.0",
+          "version": "1.0.0",
+          "kind": "dependencies"
+        },
+        "postgres-date": {
+          "spec": ">=1.0.4 <1.1.0",
+          "version": "1.0.7",
+          "kind": "dependencies"
+        },
+        "postgres-interval": {
+          "spec": ">=1.1.0 <2.0.0",
+          "version": "1.2.0",
+          "kind": "dependencies"
+        }
+      }
+    },
+    "pgpass": {
+      "1.0.4": {
+        "split2": {
+          "spec": ">=3.1.1 <4.0.0",
+          "version": "3.2.2",
+          "kind": "dependencies"
+        }
+      }
+    },
+    "postcss": {
+      "6.0.23": {
+        "chalk": {
+          "spec": ">=2.4.1 <3.0.0",
+          "version": "2.4.2",
+          "kind": "dependencies"
+        },
+        "source-map": {
+          "spec": ">=0.6.1 <0.7.0",
+          "version": "0.6.1",
+          "kind": "dependencies"
+        },
+        "supports-color": {
+          "spec": ">=5.4.0 <6.0.0",
+          "version": "5.5.0",
+          "kind": "dependencies"
+        }
+      },
+      "8.2.4": {
+        "colorette": {
+          "spec": ">=1.2.1 <2.0.0",
+          "version": "1.2.1",
+          "kind": "dependencies"
+        },
+        "nanoid": {
+          "spec": ">=3.1.20 <4.0.0",
+          "version": "3.1.20",
+          "kind": "dependencies"
+        },
+        "source-map": {
+          "spec": ">=0.6.1 <0.7.0",
+          "version": "0.6.1",
+          "kind": "dependencies"
+        }
+      }
+    },
+    "postcss-functions": {
+      "3.0.0": {
+        "glob": {
+          "spec": ">=7.1.2 <8.0.0",
+          "version": "7.1.6",
+          "kind": "dependencies"
+        },
+        "object-assign": {
+          "spec": ">=4.1.1 <5.0.0",
+          "version": "4.1.1",
+          "kind": "dependencies"
+        },
+        "postcss": {
+          "spec": ">=6.0.9 <7.0.0",
+          "version": "6.0.23",
+          "kind": "dependencies"
+        },
+        "postcss-value-parser": {
+          "spec": ">=3.3.0 <4.0.0",
+          "version": "3.3.1",
+          "kind": "dependencies"
+        }
+      }
+    },
+    "postcss-js": {
+      "3.0.3": {
+        "camelcase-css": {
+          "spec": ">=2.0.1 <3.0.0",
+          "version": "2.0.1",
+          "kind": "dependencies"
+        },
+        "postcss": {
+          "spec": ">=8.1.6 <9.0.0",
+          "version": "8.2.4",
+          "kind": "dependencies"
+        }
+      }
+    },
+    "postcss-nested": {
+      "5.0.3": {
+        "postcss-selector-parser": {
+          "spec": ">=6.0.4 <7.0.0",
+          "version": "6.0.4",
+          "kind": "dependencies"
+        }
+      }
+    },
+    "postcss-selector-parser": {
+      "6.0.4": {
+        "cssesc": {
+          "spec": ">=3.0.0 <4.0.0",
+          "version": "3.0.0",
+          "kind": "dependencies"
+        },
+        "indexes-of": {
+          "spec": ">=1.0.1 <2.0.0",
+          "version": "1.0.1",
+          "kind": "dependencies"
+        },
+        "uniq": {
+          "spec": ">=1.0.1 <2.0.0",
+          "version": "1.0.1",
+          "kind": "dependencies"
+        },
+        "util-deprecate": {
+          "spec": ">=1.0.2 <2.0.0",
+          "version": "1.0.2",
+          "kind": "dependencies"
+        }
+      }
+    },
+    "postcss-value-parser": {
+      "3.3.1": {},
+      "4.1.0": {}
+    },
+    "postgres-array": {
+      "2.0.0": {}
+    },
+    "postgres-bytea": {
+      "1.0.0": {}
+    },
+    "postgres-date": {
+      "1.0.7": {}
+    },
+    "postgres-interval": {
+      "1.2.0": {
+        "xtend": {
+          "spec": ">=4.0.0 <5.0.0",
+          "version": "4.0.2",
+          "kind": "dependencies"
+        }
+      }
+    },
+    "pretty-hrtime": {
+      "1.0.3": {}
+    },
+    "prop-types": {
+      "15.7.2": {
+        "loose-envify": {
+          "spec": ">=1.4.0 <2.0.0",
+          "version": "1.4.0",
+          "kind": "dependencies"
+        },
+        "object-assign": {
+          "spec": ">=4.1.1 <5.0.0",
+          "version": "4.1.1",
+          "kind": "dependencies"
+        },
+        "react-is": {
+          "spec": ">=16.8.1 <17.0.0",
+          "version": "16.13.1",
+          "kind": "dependencies"
+        }
+      }
+    },
+    "purgecss": {
+      "3.1.3": {
+        "commander": {
+          "spec": ">=6.0.0 <7.0.0",
+          "version": "6.2.1",
+          "kind": "dependencies"
+        },
+        "glob": {
+          "spec": ">=7.0.0 <8.0.0",
+          "version": "7.1.6",
+          "kind": "dependencies"
+        },
+        "postcss": {
+          "spec": ">=8.2.1 <9.0.0",
+          "version": "8.2.4",
+          "kind": "dependencies"
+        },
+        "postcss-selector-parser": {
+          "spec": ">=6.0.2 <7.0.0",
+          "version": "6.0.4",
+          "kind": "dependencies"
+        }
+      }
+    },
+    "querystringify": {
+      "2.2.0": {}
+    },
+    "react": {
+      "16.14.0": {
+        "loose-envify": {
+          "spec": ">=1.1.0 <2.0.0",
+          "version": "1.4.0",
+          "kind": "dependencies"
+        },
+        "object-assign": {
+          "spec": ">=4.1.1 <5.0.0",
+          "version": "4.1.1",
+          "kind": "dependencies"
+        },
+        "prop-types": {
+          "spec": ">=15.6.2 <16.0.0",
+          "version": "15.7.2",
+          "kind": "dependencies"
+        }
+      }
+    },
+    "react-dom": {
+      "16.14.0": {
+        "loose-envify": {
+          "spec": ">=1.1.0 <2.0.0",
+          "version": "1.4.0",
+          "kind": "dependencies"
+        },
+        "object-assign": {
+          "spec": ">=4.1.1 <5.0.0",
+          "version": "4.1.1",
+          "kind": "dependencies"
+        },
+        "prop-types": {
+          "spec": ">=15.6.2 <16.0.0",
+          "version": "15.7.2",
+          "kind": "dependencies"
+        },
+        "scheduler": {
+          "spec": ">=0.19.1 <0.20.0",
+          "version": "0.19.1",
+          "kind": "dependencies"
+        }
+      }
+    },
+    "react-is": {
+      "16.13.1": {}
+    },
+    "readable-stream": {
+      "3.6.0": {
+        "inherits": {
+          "spec": ">=2.0.3 <3.0.0",
+          "version": "2.0.4",
+          "kind": "dependencies"
+        },
+        "string_decoder": {
+          "spec": ">=1.1.1 <2.0.0",
+          "version": "1.3.0",
+          "kind": "dependencies"
+        },
+        "util-deprecate": {
+          "spec": ">=1.0.1 <2.0.0",
+          "version": "1.0.2",
+          "kind": "dependencies"
+        }
+      }
+    },
+    "reduce-css-calc": {
+      "2.1.8": {
+        "css-unit-converter": {
+          "spec": ">=1.1.1 <2.0.0",
+          "version": "1.1.2",
+          "kind": "dependencies"
+        },
+        "postcss-value-parser": {
+          "spec": ">=3.3.0 <4.0.0",
+          "version": "3.3.1",
+          "kind": "dependencies"
+        }
+      }
+    },
+    "requires-port": {
+      "1.0.0": {}
+    },
+    "resolve": {
+      "1.19.0": {
+        "is-core-module": {
+          "spec": ">=2.1.0 <3.0.0",
+          "version": "2.2.0",
+          "kind": "dependencies"
+        },
+        "path-parse": {
+          "spec": ">=1.0.6 <2.0.0",
+          "version": "1.0.6",
+          "kind": "dependencies"
+        }
+      }
+    },
+    "safe-buffer": {
+      "5.2.1": {}
+    },
+    "scheduler": {
+      "0.19.1": {
+        "loose-envify": {
+          "spec": ">=1.1.0 <2.0.0",
+          "version": "1.4.0",
+          "kind": "dependencies"
+        },
+        "object-assign": {
+          "spec": ">=4.1.1 <5.0.0",
+          "version": "4.1.1",
+          "kind": "dependencies"
+        }
+      }
+    },
+    "semver": {
+      "4.3.2": {}
+    },
+    "simple-swizzle": {
+      "0.2.2": {
+        "is-arrayish": {
+          "spec": ">=0.3.1 <0.4.0",
+          "version": "0.3.2",
+          "kind": "dependencies"
+        }
+      }
+    },
+    "source-map": {
+      "0.6.1": {},
+      "0.7.3": {}
+    },
+    "split2": {
+      "3.2.2": {
+        "readable-stream": {
+          "spec": ">=3.0.0 <4.0.0",
+          "version": "3.6.0",
+          "kind": "dependencies"
+        }
+      }
+    },
+    "string_decoder": {
+      "1.3.0": {
+        "safe-buffer": {
+          "spec": ">=5.2.0 <5.3.0",
+          "version": "5.2.1",
+          "kind": "dependencies"
+        }
+      }
+    },
+    "supports-color": {
+      "5.5.0": {
+        "has-flag": {
+          "spec": ">=3.0.0 <4.0.0",
+          "version": "3.0.0",
+          "kind": "dependencies"
+        }
+      },
+      "7.2.0": {
+        "has-flag": {
+          "spec": ">=4.0.0 <5.0.0",
+          "version": "4.0.0",
+          "kind": "dependencies"
+        }
+      }
+    },
+    "tailwindcss": {
+      "2.0.2": {
+        "@fullhuman/postcss-purgecss": {
+          "spec": ">=3.0.0 <4.0.0",
+          "version": "3.1.3",
+          "kind": "dependencies"
+        },
+        "bytes": {
+          "spec": ">=3.0.0 <4.0.0",
+          "version": "3.1.0",
+          "kind": "dependencies"
+        },
+        "chalk": {
+          "spec": ">=4.1.0 <5.0.0",
+          "version": "4.1.0",
+          "kind": "dependencies"
+        },
+        "color": {
+          "spec": ">=3.1.3 <4.0.0",
+          "version": "3.1.3",
+          "kind": "dependencies"
+        },
+        "detective": {
+          "spec": ">=5.2.0 <6.0.0",
+          "version": "5.2.0",
+          "kind": "dependencies"
+        },
+        "didyoumean": {
+          "spec": ">=1.2.1 <2.0.0",
+          "version": "1.2.1",
+          "kind": "dependencies"
+        },
+        "fs-extra": {
+          "spec": ">=9.0.1 <10.0.0",
+          "version": "9.1.0",
+          "kind": "dependencies"
+        },
+        "html-tags": {
+          "spec": ">=3.1.0 <4.0.0",
+          "version": "3.1.0",
+          "kind": "dependencies"
+        },
+        "lodash": {
+          "spec": ">=4.17.20 <5.0.0",
+          "version": "4.17.20",
+          "kind": "dependencies"
+        },
+        "modern-normalize": {
+          "spec": ">=1.0.0 <2.0.0",
+          "version": "1.0.0",
+          "kind": "dependencies"
+        },
+        "node-emoji": {
+          "spec": ">=1.8.1 <2.0.0",
+          "version": "1.10.0",
+          "kind": "dependencies"
+        },
+        "object-hash": {
+          "spec": ">=2.0.3 <3.0.0",
+          "version": "2.1.1",
+          "kind": "dependencies"
+        },
+        "postcss-functions": {
+          "spec": ">=3.0.0 <4.0.0",
+          "version": "3.0.0",
+          "kind": "dependencies"
+        },
+        "postcss-js": {
+          "spec": ">=3.0.3 <4.0.0",
+          "version": "3.0.3",
+          "kind": "dependencies"
+        },
+        "postcss-nested": {
+          "spec": ">=5.0.1 <6.0.0",
+          "version": "5.0.3",
+          "kind": "dependencies"
+        },
+        "postcss-selector-parser": {
+          "spec": ">=6.0.4 <7.0.0",
+          "version": "6.0.4",
+          "kind": "dependencies"
+        },
+        "postcss-value-parser": {
+          "spec": ">=4.1.0 <5.0.0",
+          "version": "4.1.0",
+          "kind": "dependencies"
+        },
+        "pretty-hrtime": {
+          "spec": ">=1.0.3 <2.0.0",
+          "version": "1.0.3",
+          "kind": "dependencies"
+        },
+        "reduce-css-calc": {
+          "spec": ">=2.1.6 <3.0.0",
+          "version": "2.1.8",
+          "kind": "dependencies"
+        },
+        "resolve": {
+          "spec": ">=1.19.0 <2.0.0",
+          "version": "1.19.0",
+          "kind": "dependencies"
+        }
+      }
+    },
+    "typescript": {
+      "4.0.5": {}
+    },
+    "uniq": {
+      "1.0.1": {}
+    },
+    "universalify": {
+      "2.0.0": {}
+    },
+    "url-parse": {
+      "1.4.7": {
+        "querystringify": {
+          "spec": ">=2.1.1 <3.0.0",
+          "version": "2.2.0",
+          "kind": "dependencies"
+        },
+        "requires-port": {
+          "spec": ">=1.0.0 <2.0.0",
+          "version": "1.0.0",
+          "kind": "dependencies"
+        }
+      }
+    },
+    "util-deprecate": {
+      "1.0.2": {}
+    },
+    "uuid": {
+      "8.1.0": {}
+    },
+    "wrappy": {
+      "1.0.2": {}
+    },
+    "ws": {
+      "7.3.1": {}
+    },
+    "xtend": {
+      "4.0.2": {}
+    }
+  }
+}

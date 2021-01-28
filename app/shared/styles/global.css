@@ -1,0 +1,78 @@
+@import './fonts';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+  }
+
+  h1 {
+    font-size: 56px;
+    font-weight: bold;
+    line-height: 120%;
+  }
+
+  h2 {
+    font-size: 44px;
+    font-weight: bold;
+    line-height: 120%;
+  }
+
+  h3 {
+    font-size: 33px;
+    font-weight: bold;
+    line-height: 120%;
+  }
+
+  h4 {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 120%;
+  }
+
+  a {
+    @apply text-blue-400 font-bold;
+  }
+
+  a:hover {
+    @apply underline;
+  }
+
+  button {
+    @apply font-bold py-2 px-10 rounded shadow-md bg-blue-400 text-white transition duration-100;
+  }
+
+  button:hover {
+    @apply bg-blue-500;
+  }
+
+  input[type=text], input[type=email] {
+    @apply p-2 rounded border focus:outline-none focus:border-gray-400;
+  }
+
+  input[type=submit] {
+    @apply font-bold py-2 px-10 rounded shadow-md bg-blue-400 text-white transition duration-100;
+  }
+
+  input[type=submit]:hover {
+    @apply bg-blue-500;
+    cursor: pointer;
+  }
+
+  .bg-texture {
+    background-image: url(app/shared/images/texture.svg);
+    background-repeat: no-repeat;
+    background-position: 20px 40px;
+    background-size: 600px 600px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 440px;
+    height: 400px;
+    z-index: -1;
+  }
+}
