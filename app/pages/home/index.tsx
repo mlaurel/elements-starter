@@ -22,7 +22,7 @@ export default class HomePage extends React.Component<IHomePage, IHomePage> {
               Welcome to Elements
             </h1>
             <h2 className="mb-6 text-blue-400 text-3xl md:text-4xl">
-              Hello, world.
+              {this.props.subtitle}
             </h2>
             <p className="text-lg leading-normal">
               Your elements app is running. Try making a change to<br/>
