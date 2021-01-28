@@ -13,6 +13,7 @@ elements apps:
   * Tailwindcss integration.
   * Server and browser app config settings.
   * Restful api routes.
+  * Calling service functions over the wire from routes.
 
 ## Usage
 First create an empty elements app.
