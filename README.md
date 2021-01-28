@@ -14,8 +14,19 @@ cd demo
 ```
 
 Then copy the contents of this github repo into your project using the curl and
-tar programs. Make sure you're in your new project's directory.
+tar programs. Make sure you're in your new project's directory!
 
 ```bash
 curl -L https://github.com/elementscode/starter/tarball/master | tar --strip-components=1 -xf -
 ```
+
+Finally, install packages and start the app.
+
+```bash
+elements install
+elements start
+```
+
+## Discussion
+If you'd like to propose changes or discuss anything, open a new
+[discussion](https://github.com/elementscode/starter/discussions)!
