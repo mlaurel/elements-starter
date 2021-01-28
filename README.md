@@ -1,9 +1,18 @@
 # Elements Starter
-This project helps you get started with an Elements application quickly.
+This project helps you get started building an Elements app quickly.
 
-It integrates with tailwindcss for creating beautiful pages. It shows examples
-of creating pages, using shared components, calling a service rpc function and
-creating restful api routes. It has pages for not found and unhandled errors.
+It has a couple of common boilerplate items and demonstrates a few ideas in
+elements apps:
+
+  * Routes for the home and login urls.
+  * React pages for home, login and errors.
+  * Reusable components.
+  * Reusable css styles.
+  * Handling for error events like data or urls not found, unauthorized, or
+    unhandled errors.
+  * Tailwindcss integration.
+  * Server and browser app config settings.
+  * Restful api routes.
 
 ## Usage
 First create an empty elements app.
