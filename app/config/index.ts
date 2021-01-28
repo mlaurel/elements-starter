@@ -5,7 +5,7 @@ import { Config } from '@elements/application';
  */
 export default Config.create((config: Config) => {
   // server
-  config.set('server.port', 5000);
+  config.set('server.port', 4000);
   config.set('server.ssl.on', !config.is('dev'));
   config.set('server.ssl.key', '/path/to/ssl.key');
   config.set('server.ssl.cert', '/path/to/ssl.crt');

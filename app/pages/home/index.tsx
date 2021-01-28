@@ -65,7 +65,7 @@ export default class HomePage extends React.Component<IHomePage, IHomePage> {
             <ResourceCard
               title="Email"
               desc="Send an email and say hello."
-              href="https://elements.dev/learn"
+              href="mailto:hello@elements.dev?subject=Welcome to Elements"
               buttonText="email/"
               icon={() => {
                 return (
