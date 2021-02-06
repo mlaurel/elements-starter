@@ -27,10 +27,11 @@ export default class LoginPage extends React.Component<ILoginPage, ILoginPage> {
           </h1>
 
           <p className="font-light">
-            Type your email and we'll send you a magic link.
+            Type your email and password to login.
           </p>
           <form className="my-5" onSubmit={(e) => this.onContinue(e)}>
             <input type="email" name="email" placeholder="james.doe@company.com" className="w-full" autoFocus required />
+            <input type="password" name="password" placeholder="password" className="w-full" required />
             <input type="submit" value="Continue" className="my-10 w-full" />
           </form>
         </div>
