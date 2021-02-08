@@ -8,5 +8,9 @@ import {
 } from '@elements/application';
 
 export async function getHelloWorld(): Promise<string> {
-  return 'Hello, world.';
+  return 'Hello World!';
+}
+
+export async function getWelcomeMessage(): Promise<string> {
+    return 'Welcome to Elements!'
 }
